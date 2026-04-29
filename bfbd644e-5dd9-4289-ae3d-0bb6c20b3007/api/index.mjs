@@ -779,7 +779,4 @@ app.post('/admin/draws/publish', async (req, res) => {
   }
 });
 
-const port = Number(process.env.API_PORT ?? 8787);
-app.listen(port, () => {
-  console.log(`API server running on http://localhost:${port}`);
-});
+export default app;
