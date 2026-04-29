@@ -3,15 +3,36 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "npm --prefix \"bfbd644e-5dd9-4289-ae3d-0bb6c20b3007\" run dev",
+    "dev:api": "npm --prefix \"bfbd644e-5dd9-4289-ae3d-0bb6c20b3007\" run dev:api",
+    "build": "npm --prefix \"bfbd644e-5dd9-4289-ae3d-0bb6c20b3007\" run build",
+    "preview": "npm --prefix \"bfbd644e-5dd9-4289-ae3d-0bb6c20b3007\" run preview",
+    "lint": "npm --prefix \"bfbd644e-5dd9-4289-ae3d-0bb6c20b3007\" run lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@hookform/resolvers": "^5.2.2",
+    "@mui/icons-material": "^9.0.0",
+    "@mui/material": "^9.0.0",
+    "@mui/material-nextjs": "^9.0.0",
+    "@stripe/react-stripe-js": "^6.2.0",
+    "@stripe/stripe-js": "^9.3.1",
+    "@supabase/ssr": "^0.10.2",
+    "@supabase/supabase-js": "^2.104.1",
+    "axios": "^1.15.2",
+    "cryptojs": "^2.5.3",
+    "date-fns": "^4.1.0",
+    "dotenv-local": "^1.0.2",
+    "framer-motion": "^12.38.0",
+    "jose": "^6.2.2",
     "next": "16.2.4",
+    "next-auth": "^4.24.14",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-hook-form": "^7.74.0",
+    "stripe": "^22.1.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/node": "^20",
